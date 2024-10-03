@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete responsive tour and travel agency website design</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="images/p-2.jpg">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- wow js -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- owl crouse css file  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/fakeLoader.min.css">
+    <!-- scroling aos.css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="wow fadeInDown" data-wow-duration="4s" >
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><img src="images/logo.gif" alt="logo"></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home"  id="home">
+
+    <div class="content wow fadeInUp"data-wow-duration="4s">
+        <h3>Bright your future with <span>travels</span></h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book wow fadeInUp" data-wow-duration="4s" id="book" >
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image " data-aos="fade-right"
+        data-aos="fade-right"
+        data-aos-offset="10"
+        data-aos-duration="500">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="" data-aos="fade-up"data-aos-offset="40"
+        data-aos-offset="10"
+        data-aos-duration="600">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn btn-submit" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading wow fadeIn">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container owl-carousel first_carousel">
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-1.jpg" data-lightbox="image-1" data-title="Mumbai"><img src="images/p-1.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Experience the vibrant energy of India's financial capital, known for its bustling streets and iconic landmarks like the Gateway of India.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-2.jpg" data-lightbox="image-1" data-title="Goa"><img src="images/p-2.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> goa </h3>
+                <p>Relax on the stunning beaches of Goa, known for its vibrant nightlife, Portuguese heritage, and sun-kissed shores.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $70.00 <span>$100.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-3.jpg" data-lightbox="image-3" data-title="Jaipur"><img src="images/p-3.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> jaipur </h3>
+                <p>Discover the royal charm of Jaipur, the Pink City, famous for its palaces, forts, and rich cultural heritage.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $130.00 <span>$150.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-4.jpg" data-lightbox="image-4" data-title="Agra"><img src="images/p-4.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> agra </h3>
+                <p>Visit the iconic Taj Mahal in Agra, a symbol of love and one of the seven wonders of the world.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $50.00 <span>$90.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    
+    </div>
+    
+    <!-- section item start  -->
+    <div class="box-container secound_carousel owl-carousel ">
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-5.jpg" data-lightbox="image-1" data-title="Kerala"><img src="images/p-5.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> kerala </h3>
+                <p>Explore the serene backwaters of Kerala, a paradise known for its lush landscapes and Ayurvedic retreats.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $70.00 <span>$100.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-6.jpg" data-lightbox="image-3" data-title="Varanasi"><img src="images/p-6.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> varanasi </h3>
+                <p>Immerse yourself in the spiritual ambiance of Varanasi, the sacred city on the banks of the Ganges.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $130.00 <span>$150.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-7.jpg" data-lightbox="image-4" data-title="Udaipur"><img src="images/p-7.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> udaipur </h3>
+                <p>Discover the romantic city of Udaipur, known for its shimmering lakes and royal palaces.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $50.00 <span>$90.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- section item start  -->
+    <div class="box-container secound_carousel owl-carousel ">
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-5.jpg" data-lightbox="image-1" data-title="Singapur"><img src="images/p-2.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Singapur </h3>
+                <p>Discover the futuristic skyline of Singapore, a city known for its stunning Marina Bay Sands, lush gardens, and vibrant culture.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $70.00 <span>$100.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-6.jpg" data-lightbox="image-3" data-title="America"><img src="images/p-3.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> America </h3>
+                <p>Explore the diverse landscapes of America, from the bustling streets of New York City to the serene beauty of the Grand Canyon.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $130.00 <span>$150.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <a href="images/p-2.jpg" data-lightbox="image-4" data-title="Paris"><img src="images/p-4.jpg" alt="image"></a>
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Stroll through the romantic streets of Paris, home to the Eiffel Tower, world-class art museums, and charming cafes.</p>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $50.00 <span>$90.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading wow fadeIn">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Find the best affordable hotels that provide great comfort and excellent services without breaking your budget. Whether it's a city escape or a beach resort, there's an option for everyone.</p>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Indulge in local cuisines and refreshing beverages as you explore new destinations. Discover the best restaurants, street food, and cafes that cater to all tastes and preferences.</p>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Stay informed and safe during your travels with essential tips and advice on how to navigate different environments, manage emergencies, and ensure a secure travel experience.</p>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Explore the most iconic destinations across the globe. From bustling cities to serene landscapes, embark on a journey that takes you to the most beautiful places on Earth.</p>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Looking to save time while traveling? Discover the fastest routes and transportation options that get you to your destination swiftly, without sacrificing comfort and convenience.</p>
+        </div>
+    
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>For thrill-seekers and nature lovers, embark on exciting adventures like hiking, trekking, and exploring hidden trails. Challenge yourself with adrenaline-pumping activities around the world.</p>
+        </div>
+    
+    </div>
+    
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading wow fadeIn">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explore breathtaking landscapes and historical wonders that captivate travelers worldwide.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Discover hidden gems in nature, from pristine beaches to awe-inspiring mountains.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Embark on a journey to vibrant cities that blend modern architecture with rich culture.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Marvel at the beauty of scenic countryside and rural vistas filled with charm and serenity.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Experience the magic of historical landmarks and world-famous attractions.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Travel to stunning islands surrounded by crystal-clear waters and white sandy beaches.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explore lush forests and scenic parks perfect for hiking, picnicking, and adventure.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Visit iconic cities and bustling markets that offer a vibrant atmosphere and culture.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box wow fadeInUp" data-wow-duration="2s">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Immerse yourself in the wonders of ancient ruins and architectural masterpieces.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+    
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/unknown.png" alt="">
+                    <h3>Aryan Sharma</h3>
+                    <p>Visiting the Taj Mahal in Agra was a dream come true. The intricate marble work and the surrounding gardens were absolutely mesmerizing. A must-visit for anyone traveling to India!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/unknown.png" alt="">
+                    <h3>Neha Patel</h3>
+                    <p>My trip to Kerala was filled with peaceful backwater cruises and stunning landscapes. The houseboats were an unforgettable experience. Truly a serene escape into nature!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/unknown.png" alt="">
+                    <h3>Ravi Mehta</h3>
+                    <p>Exploring the vibrant city of Jaipur was an incredible experience. The royal palaces, colorful markets, and rich culture made it an unforgettable destination. Highly recommend the Pink City!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/unknown.png" alt="">
+                    <h3>Simran Kaur</h3>
+                    <p>The breathtaking views of the Himalayas from Shimla were beyond words. The cool weather and natural beauty made it a perfect getaway from the hustle and bustle of city life.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+    
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn btn-submit" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>We are dedicated to providing excellent service, ensuring that every experience is seamless and enjoyable. Our team works hard to bring you the best, making your satisfaction our priority.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a >facebook</a>
+            <a >instagram</a>
+            <a >twitter</a>
+            <a href="https://www.linkedin.com/in/sasi-venkat-attili-665b2128a/" target="_blank">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Team Fire </span> | all rights reserved! </h1>
+
+</section>
+<!-- top to bottom scrolling  -->
+<div id="totopscroller"></div>
+<!-- preloader  -->
+<div class="fakeLoader"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jaquery cdn  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- swiper-bundle.min.js -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- wow js -->
+<script src="js/wow.min.js"></script>
+<!-- lightbox.js -->
+<script src="js/lightbox.js"></script>
+<!-- owl.carousel.min.js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- top to bottom  -->
+<script src="js/jquery.totop.js"></script>
+<script src="js/fakeLoader.min.js"></script>
+<!-- scroling aos js  -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+    // owl carousel
+    $('.first_carousel').owlCarousel({
+    autoplay:true,
+    margin:10,
+    smartSpeed: 1000,
+    nav:true,
+    responsiveClass:true,
+
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+           
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:true,
+          
+        }
+    }
+})
+
+// secound carousel 
+ // owl carousel
+ $('.secound_carousel').owlCarousel({
+    autoplay:true,
+    rtl:true,
+    nav:true,
+    margin:10,
+    responsiveClass:true,
+    smartSpeed: 1000,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+           
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:true,
+          
+        }
+    }
+})
+
+// top ot bottom 
+$(function(){
+$('#totopscroller').totopscroller({
+link:'http://127.0.0.1:5500/index.html#' // show a link button
+});
+})
+
+// wow js 
+new WOW().init();
+
+// preloader
+$.fakeLoader();
+
+// aos scrolling  
+AOS.init();
+  //  water Remote Playback
+    $('.water').ripples({
+
+      // Image Url
+      imageUrl: null,
+
+      // The width and height of the WebGL texture to render to. 
+      // The larger this value, the smoother the rendering and the slower the ripples will propagate.
+      resolution: 256,
+
+      // The size (in pixels) of the drop that results by clicking or moving the mouse over the canvas.
+      dropRadius: 20,
+
+      // Basically the amount of refraction caused by a ripple. 
+      // 0 means there is no refraction.
+      perturbance: 0.04,
+
+      // Whether mouse clicks and mouse movement triggers the effect.
+      interactive: true,
+
+      // The crossOrigin attribute to use for the affected image. 
+      crossOrigin: ''
+    });
+   
+</script>
+
+</body>
+</html>
