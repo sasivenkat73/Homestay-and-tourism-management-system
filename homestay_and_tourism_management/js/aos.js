@@ -16,7 +16,7 @@ import detect from './helpers/detector';
 import handleScroll from './helpers/handleScroll';
 import prepare from './helpers/prepare';
 import elements from './helpers/elements';
-
+import elements from './helpers/elements';
 /**
  * Private variables
  */
